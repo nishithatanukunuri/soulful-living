@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1, "name": "Organic Linen Sofa", "description": "A modern minimalist sofa with a reclaimed wood frame.", "price": 999.99, "category": "sofa", "tags": ["living room", "main seating"], "popularity": 4.9, "rating": 4.9, "images": ["/images/sofa-1-front.jpg", "/images/sofa-1-side.jpg", "/images/sofa-1-back.jpg"], "eco": true, "specifications": { "Dimensions": "84\"W x 36\"D x 32\"H", "Frame Material": "Reclaimed Pine", "Upholstery": "Organic Linen" }, "style": "minimalist"
+  },
+  {
+    "id": 2, "name": "Walnut Sectional Sofa", "description": "A spacious sectional for the whole family, made with sustainable walnut.", "price": 2499.99, "category": "sofa", "tags": ["living room", "main seating"], "popularity": 4.8, "rating": 4.8, "images": ["/images/sofa-2-front.jpg", "/images/sofa-2-side.jpg", "/images/sofa-2-back.jpg"], "eco": true, "specifications": { "Dimensions": "110\"W x 90\"D x 30\"H", "Frame Material": "Solid Walnut", "Upholstery": "Recycled Velvet" }, "style": "modern"
+  },
+  {
+    "id": 3, "name": "Cozy Bouclé Loveseat", "description": "A compact and incredibly soft loveseat perfect for smaller spaces.", "price": 799.99, "category": "sofa", "tags": ["living room", "small space"], "popularity": 4.7, "rating": 4.7, "images": ["/images/sofa-3-front.jpg", "/images/sofa-3-side.jpg", "/images/sofa-3-back.jpg"], "eco": true, "specifications": { "Dimensions": "60\"W x 34\"D x 31\"H", "Frame Material": "FSC-Certified Pine", "Upholstery": "Recycled Bouclé" }, "style": "modern"
+  },
+  {
+    "id": 4, "name": "Rustic Leather Sofa", "description": "A timeless leather sofa with a sturdy reclaimed oak frame.", "price": 1899.99, "category": "sofa", "tags": ["living room", "main seating"], "popularity": 4.9, "rating": 4.9, "images": ["/images/sofa-4-front.jpg", "/images/sofa-4-side.jpg", "/images/sofa-4-back.jpg"], "eco": true, "specifications": { "Dimensions": "88\"W x 38\"D x 34\"H", "Frame Material": "Reclaimed Oak", "Upholstery": "Vegetable-Tanned Leather" }, "style": "rustic"
+  },
+  {
+    "id": 5, "name": "Minimalist Daybed", "description": "A versatile and sleek daybed, perfect for lounging or as a guest bed.", "price": 699.99, "category": "sofa", "tags": ["living room", "small space"], "popularity": 4.6, "rating": 4.6, "images": ["/images/sofa-5-front.jpg", "/images/sofa-5-side.jpg", "/images/sofa-5-back.jpg"], "eco": true, "specifications": { "Dimensions": "75\"W x 30\"D x 15\"H", "Frame Material": "Solid Ash", "Upholstery": "Hemp Canvas" }, "style": "minimalist"
+  },
+  {
+    "id": 6, "name": "Reclaimed Oak Accent Chair", "description": "A sleek handcrafted accent chair built from reclaimed oak.", "price": 249.99, "category": "chair", "tags": ["living room", "accent seating"], "popularity": 4.7, "rating": 4.7, "images": ["/images/chair-1-front.jpg", "/images/chair-1-side.jpg", "/images/chair-1-back.jpg"], "eco": true, "specifications": { "Dimensions": "28\"W x 30\"D x 34\"H", "Frame Material": "Reclaimed Oak", "Upholstery": "Organic Cotton" }, "style": "rustic"
+  },
+  {
+    "id": 7, "name": "Hemp Weave Lounge Chair", "description": "A comfortable lounge chair with a reclaimed teak frame.", "price": 399.99, "category": "chair", "tags": ["living room", "lounge seating"], "popularity": 4.6, "rating": 4.6, "images": ["/images/chair-2-front.jpg", "/images/chair-2-side.jpg", "/images/chair-2-back.jpg"], "eco": true, "specifications": { "Dimensions": "32\"W x 34\"D x 30\"H", "Frame Material": "Reclaimed Teak", "Upholstery": "Hemp Weave" }, "style": "rustic"
+  },
+  {
+    "id": 8, "name": "Walnut Dining Chair", "description": "An elegant dining chair crafted from solid, sustainably sourced walnut.", "price": 199.99, "category": "chair", "tags": ["dining", "dining seating"], "popularity": 4.7, "rating": 4.7, "images": ["/images/chair-3-front.jpg", "/images/chair-3-side.jpg", "/images/chair-3-back.jpg"], "eco": true, "specifications": { "Dimensions": "20\"W x 22\"D x 32\"H", "Frame Material": "Solid Walnut", "Upholstery": "Recycled Polyester" }, "style": "modern"
+  },
+  {
+    "id": 9, "name": "Ergonomic Office Chair", "description": "A supportive office chair made from recycled plastics and breathable mesh.", "price": 450.00, "category": "chair", "tags": ["office", "task seating"], "popularity": 4.8, "rating": 4.8, "images": ["/images/chair-4-front.jpg", "/images/chair-4-side.jpg", "/images/chair-4-back.jpg"], "eco": true, "specifications": { "Dimensions": "25\"W x 25\"D x 42\"H", "Frame Material": "Recycled Ocean Plastic", "Upholstery": "Recycled Mesh" }, "style": "modern"
+  },
+  {
+    "id": 10, "name": "Bamboo Bar Stool", "description": "A sleek and sturdy bar stool perfect for kitchen islands.", "price": 129.99, "category": "chair", "tags": ["dining", "bar seating"], "popularity": 4.5, "rating": 4.5, "images": ["/images/chair-5-front.jpg", "/images/chair-5-side.jpg", "/images/chair-5-back.jpg"], "eco": true, "specifications": { "Dimensions": "18\"W x 18\"D x 30\"H", "Frame Material": "Moso Bamboo", "Upholstery": "None" }, "style": "minimalist"
+  },
+  {
+    "id": 11, "name": "Bamboo Minimalist Dining Table", "description": "A spacious dining table made from fast-growing bamboo.", "price": 799.99, "category": "table", "tags": ["dining", "main table"], "popularity": 4.8, "rating": 4.8, "images": ["/images/table-1-front.jpg", "/images/table-1-side.jpg", "/images/table-1-back.jpg"], "eco": true, "specifications": { "Dimensions": "72\"W x 36\"D x 30\"H", "Material": "Moso Bamboo", "Seating Capacity": "6-8" }, "style": "minimalist"
+  },
+  {
+    "id": 12, "name": "Marble Coffee Table", "description": "A stunning centerpiece with a solid marble top and reclaimed wood base.", "price": 599.99, "category": "table", "tags": ["living room", "coffee table"], "popularity": 4.8, "rating": 4.8, "images": ["/images/table-2-front.jpg", "/images/table-2-side.jpg", "/images/table-2-back.jpg"], "eco": true, "specifications": { "Dimensions": "48\"W x 24\"D x 18\"H", "Material": "Carrara Marble & Oak", "Seating Capacity": "N/A" }, "style": "modern"
+  },
+  {
+    "id": 13, "name": "Walnut Console Table", "description": "A slim and elegant console table for entryways or hallways.", "price": 349.99, "category": "table", "tags": ["living room", "accent table"], "popularity": 4.7, "rating": 4.7, "images": ["/images/table-3-front.jpg", "/images/table-3-side.jpg", "/images/table-3-back.jpg"], "eco": true, "specifications": { "Dimensions": "48\"W x 14\"D x 32\"H", "Material": "Solid Walnut", "Seating Capacity": "N/A" }, "style": "modern"
+  },
+  {
+    "id": 14, "name": "Reclaimed Wood Side Table", "description": "A rustic and versatile side table with unique wood grain.", "price": 179.99, "category": "table", "tags": ["living room", "bedroom", "accent table"], "popularity": 4.9, "rating": 4.9, "images": ["/images/table-4-front.jpg", "/images/table-4-side.jpg", "/images/table-4-back.jpg"], "eco": true, "specifications": { "Dimensions": "18\"W x 18\"D x 22\"H", "Material": "Reclaimed Teak", "Seating Capacity": "N/A" }, "style": "rustic"
+  },
+  {
+    "id": 15, "name": "Round Oak Pedestal Table", "description": "A classic round dining table perfect for smaller dining areas.", "price": 650.00, "category": "table", "tags": ["dining", "main table"], "popularity": 4.8, "rating": 4.8, "images": ["/images/table-5-front.jpg", "/images/table-5-side.jpg", "/images/table-5-back.jpg"], "eco": true, "specifications": { "Dimensions": "48\" Diameter x 30\"H", "Material": "Solid Oak", "Seating Capacity": "4-6" }, "style": "rustic"
+  },
+  {
+    "id": 16, "name": "Canopy Platform Bed", "description": "A dramatic and elegant canopy bed made from reclaimed pine.", "price": 1599.99, "category": "bed", "tags": ["bedroom", "bed frame"], "popularity": 4.9, "rating": 4.9, "images": ["/images/bed-1-front.jpg", "/images/bed-1-side.jpg", "/images/bed-1-back.jpg"], "eco": true, "specifications": { "Size": "Queen", "Material": "Reclaimed Pine", "Dimensions": "64\"W x 84\"L x 80\"H" }, "style": "rustic"
+  },
+  {
+    "id": 17, "name": "Minimalist Ash Platform Bed", "description": "A low-profile, Japanese-inspired platform bed in solid ash wood.", "price": 899.99, "category": "bed", "tags": ["bedroom", "bed frame"], "popularity": 4.8, "rating": 4.8, "images": ["/images/bed-2-front.jpg", "/images/bed-2-side.jpg", "/images/bed-2-back.jpg"], "eco": true, "specifications": { "Size": "King", "Material": "Solid Ash", "Dimensions": "80\"W x 84\"L x 12\"H" }, "style": "minimalist"
+  },
+  {
+    "id": 18, "name": "Upholstered Storage Bed", "description": "A comfortable upholstered bed with four large storage drawers.", "price": 1299.99, "category": "bed", "tags": ["bedroom", "bed frame"], "popularity": 4.7, "rating": 4.7, "images": ["/images/bed-3-front.jpg", "/images/bed-3-side.jpg", "/images/bed-3-back.jpg"], "eco": true, "specifications": { "Size": "Queen", "Material": "Recycled Fabric & Pine", "Dimensions": "62\"W x 82\"L x 45\"H" }, "style": "modern"
+  },
+  {
+    "id": 19, "name": "Walnut Spindle Bed", "description": "A mid-century modern bed with a classic spindle headboard.", "price": 1199.99, "category": "bed", "tags": ["bedroom", "bed frame"], "popularity": 4.9, "rating": 4.9, "images": ["/images/bed-4-front.jpg", "/images/bed-4-side.jpg", "/images/bed-4-back.jpg"], "eco": true, "specifications": { "Size": "Queen", "Material": "Solid Walnut", "Dimensions": "63\"W x 85\"L x 48\"H" }, "style": "modern"
+  },
+  {
+    "id": 20, "name": "Simple Bamboo Bed Frame", "description": "A clean and simple bed frame made from sustainable Moso bamboo.", "price": 599.99, "category": "bed", "tags": ["bedroom", "bed frame"], "popularity": 4.6, "rating": 4.6, "images": ["/images/bed-5-front.jpg", "/images/bed-5-side.jpg", "/images/bed-5-back.jpg"], "eco": true, "specifications": { "Size": "Full", "Material": "Moso Bamboo", "Dimensions": "56\"W x 78\"L x 38\"H" }, "style": "minimalist"
+  },
+  {
+    "id": 21, "name": "Reclaimed Wood Bookshelf", "description": "A tall, industrial-style bookshelf with reclaimed wood shelves.", "price": 699.99, "category": "storage", "tags": ["living room", "office", "shelving"], "popularity": 4.8, "rating": 4.8, "images": ["/images/storage-1-front.jpg", "/images/storage-1-side.jpg", "/images/storage-1-back.jpg"], "eco": true, "specifications": { "Dimensions": "36\"W x 14\"D x 72\"H", "Material": "Reclaimed Pine & Steel", "Shelves": "5" }, "style": "rustic"
+  },
+  {
+    "id": 22, "name": "Walnut 6-Drawer Dresser", "description": "A spacious and elegant mid-century modern dresser.", "price": 1399.99, "category": "storage", "tags": ["bedroom", "dresser"], "popularity": 4.9, "rating": 4.9, "images": ["/images/storage-2-front.jpg", "/images/storage-2-side.jpg", "/images/storage-2-back.jpg"], "eco": true, "specifications": { "Dimensions": "60\"W x 18\"D x 34\"H", "Material": "Solid Walnut", "Drawers": "6" }, "style": "modern"
+  },
+  {
+    "id": 23, "name": "Minimalist Oak Sideboard", "description": "A clean and functional sideboard for dining or living rooms.", "price": 950.00, "category": "storage", "tags": ["dining", "living room", "cabinet"], "popularity": 4.7, "rating": 4.7, "images": ["/images/storage-3-front.jpg", "/images/storage-3-side.jpg", "/images/storage-3-back.jpg"], "eco": true, "specifications": { "Dimensions": "58\"W x 16\"D x 30\"H", "Material": "Solid Oak", "Doors": "3" }, "style": "minimalist"
+  },
+  {
+    "id": 24, "name": "Bamboo Nightstand", "description": "A simple and sustainable nightstand with a single drawer.", "price": 149.99, "category": "storage", "tags": ["bedroom", "nightstand"], "popularity": 4.6, "rating": 4.6, "images": ["/images/storage-4-front.jpg", "/images/storage-4-side.jpg", "/images/storage-4-back.jpg"], "eco": true, "specifications": { "Dimensions": "20\"W x 15\"D x 24\"H", "Material": "Moso Bamboo", "Drawers": "1" }, "style": "minimalist"
+  },
+  {
+    "id": 25, "name": "Rustic Entryway Bench", "description": "A charming bench made from a single piece of reclaimed timber.", "price": 299.99, "category": "storage", "tags": ["entryway", "seating"], "popularity": 4.8, "rating": 4.8, "images": ["/images/storage-5-front.jpg", "/images/storage-5-side.jpg", "/images/storage-5-back.jpg"], "eco": true, "specifications": { "Dimensions": "48\"W x 15\"D x 18\"H", "Material": "Reclaimed Elm", "Drawers": "0" }, "style": "rustic"
+  }
+]
