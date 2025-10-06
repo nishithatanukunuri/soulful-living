@@ -1,4 +1,4 @@
-# Soulful Living - Eco-Friendly Furniture E-Commerce SPA
+# Soulful Living - Eco-Friendly Furniture E-Commerce
 
 **Live Demo:** [Link to your deployed Netlify/Vercel site]
 
