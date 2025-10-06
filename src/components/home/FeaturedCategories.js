@@ -3,11 +3,11 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 const categories = [
-    { name: 'Sofas', image: '/images/category-sofas.jpg', path: '/products?category=sofa', size: 'large' },
-    { name: 'Chairs', image: '/images/category-chair.jpg', path: '/products?category=chair', size: 'small' },
-    { name: 'Tables', image: '/images/category-tables.jpg', path: '/products?category=table', size: 'small' },
-    { name: 'Beds', image: '/images/category-beds.jpg', path: '/products?category=bed', size: 'large' },
-    { name: 'Storage', image: '/images/category-storage.jpg', path: '/products?category=storage', size: 'full' },
+    { name: 'Sofas', image: `${process.env.PUBLIC_URL}/images/category-sofas.jpg`, path: '/products?category=sofa', size: 'large' },
+    { name: 'Chairs', image: `${process.env.PUBLIC_URL}/images/category-chair.jpg`, path: '/products?category=chair', size: 'small' },
+    { name: 'Tables', image: `${process.env.PUBLIC_URL}/images/category-tables.jpg`, path: '/products?category=table', size: 'small' },
+    { name: 'Beds', image: `${process.env.PUBLIC_URL}/images/category-beds.jpg`, path: '/products?category=bed', size: 'large' },
+    { name: 'Storage', image: `${process.env.PUBLIC_URL}/images/category-storage.jpg`, path: '/products?category=storage', size: 'full' },
 ];
 
 const containerVariants = {

@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="relative h-[90vh] min-h-[650px] flex items-center justify-center text-white overflow-hidden">
             <motion.div
                 className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: "url('/images/hero-background.jpg')" }}
+                style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/hero-background.jpg)` }}
                 initial={{ scale: 1.1 }}
                 animate={{ scale: 1 }}
                 transition={{ duration: 15, ease: "easeOut" }}

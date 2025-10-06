@@ -26,7 +26,7 @@ const SustainabilityPage = () => {
             <div className="relative h-[50vh] min-h-[400px] flex items-center justify-center text-center text-serene-white">
                 <div
                     className="absolute inset-0 bg-cover bg-center"
-                    style={{ backgroundImage: "url('/images/sustainability-hero.jpg')" }}
+                    style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/sustainability-hero.jpg)` }}
                 ></div>
                 <div className="absolute inset-0 bg-charcoal opacity-60"></div>
                 <div className="relative z-10 p-4">
@@ -86,7 +86,7 @@ const SustainabilityPage = () => {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-12">
                         <div className="h-80 rounded-lg shadow-xl overflow-hidden md:order-last">
-                            <img src="/images/bamboo-forest.jpg" alt="Bamboo forest" className="w-full h-full object-cover" />
+                            <img src={`${process.env.PUBLIC_URL}/images/bamboo-forest.jpg`} alt="Bamboo forest" className="w-full h-full object-cover" />
                         </div>
                         <div className="space-y-4 md:order-first">
                             <GiBamboo className="text-4xl text-accent" />

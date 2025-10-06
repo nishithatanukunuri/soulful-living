@@ -1,6 +1,6 @@
 # Soulful Living - Eco-Friendly Furniture E-Commerce
 
-**Live Demo:** [Link to your deployed Netlify/Vercel site]
+**Live Demo:** [Soulful Living](https://nishithatanukunuri.github.io/soulful-living/)
 
 ![Soulful Living Home Page](https://github.com/nishithatanukunuri/soulful-living/blob/main/.github/assets/homepage-screenshot.png)
 <!-- **Action:** Take a beautiful screenshot of your home page, upload it to a service like Imgur, and paste the URL here. -->

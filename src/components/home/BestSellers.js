@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import ProductCard from '../ProductCard';
 import products from '../../data/products.json';
 import { motion } from 'framer-motion';
 
 const BestSellers = () => {
-    const bestSellers = products.slice(0, 4);
+    const bestSellers = useMemo(() => {
+        const shuffled = [...products].sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, 4);
+    }, []);
+
     return (
         <div className="py-20">
             <div className="container mx-auto px-6">
