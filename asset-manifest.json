@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/soulful-living/static/css/main.40c58cbc.css",
-    "main.js": "/soulful-living/static/js/main.9527f781.js",
+    "main.js": "/soulful-living/static/js/main.f59c4d85.js",
     "static/js/453.6355306f.chunk.js": "/soulful-living/static/js/453.6355306f.chunk.js",
     "static/media/parchment-texture.jpg": "/soulful-living/static/media/parchment-texture.9d632653eb7706c12c02.jpg",
     "index.html": "/soulful-living/index.html",
     "main.40c58cbc.css.map": "/soulful-living/static/css/main.40c58cbc.css.map",
-    "main.9527f781.js.map": "/soulful-living/static/js/main.9527f781.js.map",
+    "main.f59c4d85.js.map": "/soulful-living/static/js/main.f59c4d85.js.map",
     "453.6355306f.chunk.js.map": "/soulful-living/static/js/453.6355306f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40c58cbc.css",
-    "static/js/main.9527f781.js"
+    "static/js/main.f59c4d85.js"
   ]
 }
