@@ -66,7 +66,7 @@ const SearchOverlay = ({ isOpen, onClose }) => {
                                     {results.map(product => (
                                         <li key={product.id}>
                                             <Link to={`/product/${product.id}`} onClick={onClose} className="flex items-center gap-4 p-3 rounded-md hover:bg-earth-tone/20 transition-colors">
-                                                <img src={product.images[0]} alt={product.name} className="w-16 h-16 object-cover rounded-md" />
+                                                <img src={`${process.env.PUBLIC_URL}/${product.images[0]}`} alt={product.name} className="w-16 h-16 object-cover rounded-md" />
                                                 <div>
                                                     <p className="font-bold text-charcoal">{product.name}</p>
                                                     <p className="text-sm text-earth-tone-dark">${product.price.toFixed(2)}</p>

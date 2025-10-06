@@ -79,7 +79,7 @@ const ComparisonPage = () => {
                             <div className="absolute -top-3 -right-3 bg-sage-green text-serene-white font-bold text-xs px-3 py-1 rounded-full transform rotate-12 z-10">Best Value</div>
                         )}
                         <Link to={`/product/${product.id}`}>
-                            <img src={product.images[0]} alt={product.name} className="w-full h-64 object-cover rounded-t-md" />
+                            <img src={`${process.env.PUBLIC_URL}/${product.images[0]}`} alt={product.name} className="w-full h-64 object-cover rounded-t-md" />
                         </Link>
                         <h3 className="font-serif text-2xl text-center p-4 h-24 flex items-center justify-center">{product.name}</h3>
                     </div>

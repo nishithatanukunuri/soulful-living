@@ -39,7 +39,7 @@ const OrdersPage = () => {
                             <div className="space-y-4">
                                 {order.items.map(item => (
                                     <div key={item.id} className="flex items-center gap-4 text-sm">
-                                        <img src={item.images[0]} alt={item.name} className="w-16 h-16 object-cover rounded-md" />
+                                        <img src={`${process.env.PUBLIC_URL}/${item.images[0]}`} alt={item.name} className="w-16 h-16 object-cover rounded-md" />
                                         <div className="flex-grow">
                                             <p className="font-bold">{item.name}</p>
                                             <p className="text-charcoal/70">Quantity: {item.quantity}</p>

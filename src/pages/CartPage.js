@@ -83,7 +83,7 @@ const CartPage = () => {
                                         className="flex items-center gap-4 p-4 bg-serene-white rounded-lg shadow-md"
                                     >
                                         <img
-                                            src={item.images[0]}
+                                            src={`${process.env.PUBLIC_URL}/${item.images[0]}`}
                                             alt={item.name}
                                             className="w-24 h-24 object-cover rounded-md"
                                         />

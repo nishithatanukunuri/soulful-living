@@ -62,7 +62,7 @@ const WishlistPage = () => {
                                 className="grid grid-cols-1 md:grid-cols-4 items-center gap-4 p-4 bg-serene-white rounded-lg shadow-md"
                             >
                                 <Link to={`/product/${item.id}`} className="col-span-1">
-                                    <img src={item.images[0]} alt={item.name} className="w-full h-32 object-cover rounded-md" />
+                                    <img src={`${process.env.PUBLIC_URL}/${item.images[0]}`} alt={item.name} className="w-full h-32 object-cover rounded-md" />
                                 </Link>
                                 <div className="col-span-1 md:col-span-2">
                                     <Link to={`/product/${item.id}`} className="font-bold text-xl text-charcoal hover:text-accent transition-colors">{item.name}</Link>

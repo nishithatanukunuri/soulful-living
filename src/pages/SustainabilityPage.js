@@ -81,7 +81,7 @@ const SustainabilityPage = () => {
                             </p>
                         </div>
                         <div className="h-80 rounded-lg shadow-xl overflow-hidden">
-                            <img src="/images/reclaimed-wood.jpg" alt="Close up of reclaimed wood texture" className="w-full h-full object-cover" />
+                            <img src={`${process.env.PUBLIC_URL}/images/reclaimed-wood.jpg`} alt="Close up of reclaimed wood texture" className="w-full h-full object-cover" />
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-12">

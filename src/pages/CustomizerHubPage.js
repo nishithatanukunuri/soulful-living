@@ -72,7 +72,7 @@ const CustomizerHubPage = () => {
                         <div className={`rounded-lg shadow-xl overflow-hidden group ${index % 2 === 0 ? 'md:order-1' : 'md:order-2'}`}>
                             <Link to={`/customize/${item.baseProduct.id}`}>
                                 <img
-                                    src={item.baseProduct.heroImage}
+                                    src={`${process.env.PUBLIC_URL}/${item.baseProduct.heroImage}`}
                                     alt={item.baseProduct.name}
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                                 />

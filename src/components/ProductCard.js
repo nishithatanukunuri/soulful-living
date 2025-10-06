@@ -93,7 +93,7 @@ const ProductCard = ({ product }) => {
                     <AnimatePresence initial={false} custom={slideDirection}>
                         <motion.img
                             key={currentImageIndex}
-                            src={product.images[currentImageIndex]}
+                            src={`${process.env.PUBLIC_URL}/${product.images[currentImageIndex]}`}
                             alt={`${product.name} view ${currentImageIndex + 1}`}
                             className="absolute top-0 left-0 w-full h-full object-cover"
                             variants={imageVariants}

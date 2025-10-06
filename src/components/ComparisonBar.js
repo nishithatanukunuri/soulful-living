@@ -24,7 +24,7 @@ const ComparisonBar = () => {
                             <h3 className="font-serif text-xl text-charcoal hidden md:block">Compare Products</h3>
                             {compareList.map((product) => (
                                 <div key={product.id} className="relative w-16 h-16 bg-warm-ivory rounded-md border-2 border-earth-tone/30 flex items-center justify-center">
-                                    <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover rounded-sm" />
+                                    <img src={`${process.env.PUBLIC_URL}/${item.images[0]}`} alt={product.name} className="w-full h-full object-cover rounded-sm" />
                                     <button
                                         onClick={() => toggleCompare(product)}
                                         className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full p-0.5 hover:bg-red-700 transition-colors"

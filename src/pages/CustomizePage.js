@@ -37,7 +37,7 @@ const CustomizePage = () => {
     const currentImage = useMemo(() => {
         if (!productData || Object.keys(selections).length === 0) return '';
         const selectionIds = optionKeys.map(key => selections[key]?.id).join('-');
-        return `/images/customizer/combo-${productId}-${selectionIds}.png`;
+        return `${process.env.PUBLIC_URL}/images/customizer/combo-${productId}-${selectionIds}.png`;
     }, [selections, productId, productData, optionKeys]);
 
     const totalPrice = useMemo(() => {
@@ -116,7 +116,7 @@ const CustomizePage = () => {
                                         }`}
                                     >
                                         <div className="w-28 h-28 rounded-md bg-serene-white flex items-center justify-center">
-                                            <img src={opt.thumbnail} alt={opt.name} className="w-full h-full object-contain p-2" />
+                                            <img src={`${process.env.PUBLIC_URL}/${opt.thumbnail}`} alt={opt.name} className="w-full h-full object-contain p-2" />
                                         </div>
                                         <p className="text-sm font-semibold mt-2">{opt.name}</p>
                                         <p className="text-xs text-charcoal/70">{opt.priceModifier > 0 ? `+$${opt.priceModifier.toFixed(2)}` : 'Included'}</p>
