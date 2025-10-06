@@ -11,6 +11,8 @@ import WishlistPage from './pages/WishlistPage';
 import ComparisonPage from './pages/ComparisonPage';
 import CustomizerHubPage from './pages/CustomizerHubPage';
 import CustomizerPage from './pages/CustomizePage';
+import SustainabilityPage from './pages/SustainabilityPage';
+import ContactPage from './pages/ContactPage';
 import { AnimationProvider } from './context/AnimationContext';
 import { CartProvider } from './context/CartContext';
 import { ComparisonProvider } from './context/ComparisonContext';
@@ -33,7 +35,8 @@ function App() {
                                 <Route path="/compare" element={<ComparisonPage />} />
                                 <Route path="/customize" element={<CustomizerHubPage />} />
                                 <Route path="/customize/:productId" element={<CustomizerPage />} />
-
+                                <Route path="/sustainability" element={<SustainabilityPage />} />
+                                <Route path="/contact" element={<ContactPage />} />
                             </Routes>
                         </Layout>
                     </ComparisonProvider>
